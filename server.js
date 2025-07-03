@@ -12,7 +12,7 @@ app.get('/aranshika', (req, res) => {
   res.sendFile((path.join(__dirname, 'public','index.html')));
 });
 app.get('/', (req, res) => {
-  res.write("Hello how are you");
+  res.write("Hello how are you. I am fine thank u");
   res.end();
 });
 app.listen(port)
